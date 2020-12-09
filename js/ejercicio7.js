@@ -10,4 +10,14 @@ if(num1 > num2 && num1 > num3){
     document.write("El primer y segundo número son los mayores: " + num1); 
 }else if(num1 > num2 && num1 == num3){
     document.write("El primer y tercer número son los mayores: " + num1);
+}else if(num2 > num1 && num2 > num3){
+    document.write("El segundo número es el mayor: " + num2);
+}else if(num2 > num1 && num2 == num3){
+    document.write("El segundo y tercer número son los mayores: " + num2);
+}else if(num3 > num1 && num3 > num2){
+    document.write("El tercer número es el mayor: " + num3);
+}else if(num3 == num2 && num1 < num3){
+    document.write("El tercer y segundo número son los mayores: " + num3); 
+}else{
+    document.write("Los 3 números son iguales :D ");
 }
